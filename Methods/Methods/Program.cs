@@ -1,4 +1,64 @@
-﻿#region Task 4
+﻿#region Task 1
+
+//Verilmiş n - ədədinin 3-ə və 7-ə bölünüb-bölünməməsini tapın.
+
+//IsDivide(int.Parse(Console.ReadLine()));
+
+//static void IsDivide (int n)
+//{
+//    if (n % 3 == 0 && n % 7 == 0)
+//    {
+//        Console.WriteLine($"{n} is divisible by 3 and 7");
+//    }
+
+//    else
+//    {
+//        Console.WriteLine($"{n} is not divisible by 3 and 7");
+//    }
+//}
+
+#endregion
+
+#region Task 2
+
+//n və m ədədləri verilir. Əgər n və m ədədləri hər ikisi cütdürsə n və m ədədlərinin cəmini hesablayın.
+
+//Sum(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+
+//static void Sum(int n, int m)
+//{
+//    if (n % 2 == 0 && m % 2 == 0)
+//    {
+//        Console.WriteLine(n + m);
+//    }
+//}
+
+#endregion
+
+#region Task 3
+
+//Verilmis n ve m (n<m) ededleri arasindaki tek ededlerin cemini tapin.
+
+//Sum(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+
+//static void Sum(int n, int m)
+//{
+//    int result = 0;
+
+//    for (int i = n; i < m; i++)
+//    {
+//        if (i % 2 == 1)
+//        {
+//            result += i;
+//        }
+//    }
+
+//    Console.WriteLine(result);
+//}
+
+#endregion
+
+#region Task 4
 
 //int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
 
@@ -112,6 +172,50 @@
 //	}
 
 //	return count;
+//}
+
+#endregion
+
+#region Task 9
+
+//Console.WriteLine(Check(int.Parse(Console.ReadLine())));
+
+//static string Check(int number1)
+//{
+//    if (number1 == 1)
+//    {
+//        return $"{number1} is not a prime number and not a composite number";
+//    }
+
+//    else if (number1 < 1)
+//    {
+//        return "Please enter the correct number";
+//    }
+
+//    else
+//    {
+//        int count = 0;
+//        int number2 = 1;
+
+
+//        for (int i = number2; i <= number1; i++)
+//        {
+//            if (number1 % i == 0)
+//            {
+//                count++;
+//            }
+//        }
+
+//        if (count == 2)
+//        {
+//            return $"{number1} is prime number";
+//        }
+
+//        else
+//        {
+//            return $"{number1} is composite number";
+//        }
+//    }
 //}
 
 #endregion
