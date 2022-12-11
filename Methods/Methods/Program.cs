@@ -60,6 +60,8 @@
 
 #region Task 4
 
+//Verilmish arrayin icindeki tek ededlerin cemini tapin.
+
 //int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
 
 //Console.WriteLine(Sum(array));
@@ -83,6 +85,8 @@
 
 #region Task 5
 
+//Verilmish arrayin icindeki cut ededlerin sayini tapin.
+
 //int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
 
 //Console.WriteLine(Count(array));
@@ -105,6 +109,8 @@
 #endregion
 
 #region Task 6
+
+//Verilmis n ve m (n<m) ededleri arasindaki tek ededlerin sayini tapin.
 
 //int n = int.Parse(Console.ReadLine());
 //int m = int.Parse(Console.ReadLine());
@@ -130,6 +136,8 @@
 
 #region Task 7
 
+//Verilmis n ve m (n<m) ededleri arasindaki cut ededlerin cemini tapin.
+
 //int n = int.Parse(Console.ReadLine());
 //int m = int.Parse(Console.ReadLine());
 
@@ -154,6 +162,8 @@
 
 #region Task 8
 
+//Verilmis n ve m (n<m) ededleri arasindaki cut ededlerin sayini tapin.
+
 //int n = int.Parse(Console.ReadLine());
 //int m = int.Parse(Console.ReadLine());
 
@@ -177,6 +187,8 @@
 #endregion
 
 #region Task 9
+
+//Verilmis n tam ededinin sade ve ya murekkeb oldugunu tapin.
 
 //Console.WriteLine(Check(int.Parse(Console.ReadLine())));
 
@@ -221,6 +233,8 @@
 #endregion
 
 #region Task 10
+
+//n ededinin faktorialini hesablamaq.
 
 //Console.WriteLine(Factorial(int.Parse(Console.ReadLine())));
 
